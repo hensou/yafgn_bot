@@ -1,0 +1,9 @@
+services:
+  bot:
+    build:
+      dockerfile: ./Dockerfile
+    volumes:
+      - app-db:/app/db
+
+volumes:
+  app-db:
