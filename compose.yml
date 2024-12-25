@@ -1,7 +1,7 @@
 services:
   bot:
     build:
-      dockerfile: ./Dockerfile
+      dockerfile: Dockerfile
     volumes:
       - app-db:/app/db
 
